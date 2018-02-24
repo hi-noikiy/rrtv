@@ -1,0 +1,32 @@
+.main{
+    /*width: 100%;*/
+    padding: 10px 50px;
+}
+.form{
+    margin: 0 auto;
+}
+form li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+form li input[type="password"],[type="text"],[type="number"]{
+    display: block;
+    width: 700px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.btns input {
+    display: block;
+    margin: 10px 100px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    background-image: linear-gradient(to top ,#5587D1,#6CBEE1);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}

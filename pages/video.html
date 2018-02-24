@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+    <section>
+        <header></header>
+        <div class="main">
+            <div class="video">
+                <div class="playarea">
+                    <video src="../video/birds.mp4" controls width="960" height="540"></video>
+                    <div class="controls">
+                        <svg width="960" height="100">
+                            <line x1="10" y1="10" x2="950" y2="10" stroke-width="6" stroke="#999"></line>
+                            <line id="progress" x1="10" y1="10" x2="10" y2="10" stroke-width="6" stroke="#00bcd4"></line>
+                            <line id="cap" x1="5" y1="10" x2="15" y2="10" stroke-width="16" stroke="#eee" stroke-linecap="round"></line>
+                            <line x1=600 y1=50 x2=900 y2=50 stroke="#999" stroke-width=2></line>
+                            <line  id="line"x1=600 y1=50 x2=900 y2=50 stroke="#00BCD4" stroke-width=2></line>
+                            <circle id="c" cx=900 cy=50 r=10 fill="#fff"></circle>
+                            <use id="pp" xlink:href="#icon-bofang" x=50 y=25 width=50 height=50 fill="#fff"></use>
+                            <text id="time" x="520" y="58" fill="#fff">00:00</text>
+                        </svg>
+                    </div>
+                    <div class="menu"></div>
+                </div>
+                <div class="playlist">
+                    <ul>
+                        <li><img src="../img/preview/b_1511689609875.jpg" alt=""><span>演示视频</span></li>
+                        <li><img src="../img/preview/b_1511689609875.jpg" alt=""><span>演示视频</span></li>
+                        <li><img src="../img/preview/b_1511689609875.jpg" alt=""><span>演示视频</span></li>
+                        <li><img src="../img/preview/b_1511689609875.jpg" alt=""><span>演示视频</span></li>
+                        <li><img src="../img/preview/b_1511689609875.jpg" alt=""><span>演示视频</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video-info">
+                <h1> 示例视频1  </h1>
+                <ul class="infos">
+                    <li>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-like1-copy"></use>
+                        </svg>
+                    </li>
+                    <li>type</li>
+                    <li>length</li>
+                </ul>
+                <p>示例视频,好好学习天天向上,学习期间不搞对象</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <h1>发布评论</h1>
+                    <textarea class="content" name="content" cols="30" rows="10"></textarea>
+                    <p class="btn">点击发布</p>
+                </div>
+                <h1>热门评论:</h1>
+                <ul class="show-comment">  
+                    <li>
+                        <h3>username</h3>
+                        <p>content</p>
+                    </li>
+                      <li>
+                        <p>username</p>
+                        <p>content</p>
+                    </li>
+                      <li>
+                        <p>username</p>
+                        <p>content</p>
+                    </li>
+                      <li>
+                       <p>username</p>
+                        <p>content</p>
+                    </li>
+                    <li>
+                       <p>username</p>
+                        <p>content</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+        <footer></footer>
+    </section>
+<script type="text/javascript" src="../js/iconfont.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/base.js"></script>
+<script src="../js/video.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.data li{
+    display: block;
+    width: 120px;
+}
+.liked>ul{
+    perspective: 100px;
+}
+.liked>ul>li{
+    width:1280px;
+    height:0px;
+    background: #4CA6D9;
+    transition: all .2s ease;
+    line-height: 40px;
+    /*transition-delay: 1s;*/
+ /*transform: rotate3d(1,0,0,270deg);*/
+
+}
+/*.liked>ul>li:hover{
+    
+    
+}*/
+.move{
+    /*height:80px;*/
+    /*transform-origin: bottom;*/
+    transform: rotate3d(1,0,0,360deg);
+}
+.infolist{
+    height: 500px;
+    /* display: flex; */
+}

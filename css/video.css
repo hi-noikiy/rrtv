@@ -1,0 +1,105 @@
+.video{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 540px;
+    
+}
+.playarea{
+    box-shadow: 1px 1px 32px;
+    z-index: 1;
+    position: relative;
+}
+div.playlist{
+    width: 320px;
+    height: 540px;
+    background: #666;
+    box-sizing: border-box;
+   
+
+}
+.playlist ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    height: 540px;
+}
+.playlist li img{
+    width:130px;
+    border: 5px solid #46AEDB;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+.playlist li {
+    width: 300px;
+    height:105px;
+}
+.playlist li span{
+    display: block;
+    float: right;
+    width: 150px;
+    color:#eee;
+}
+.video-info{
+    margin-top:50px; 
+}
+ul.infos{
+    display: flex;
+    vertical-align: bottom;
+}
+ul.infos>li{
+    display: block;
+    line-height: 40px;
+    margin-right: 40px;
+}
+.video-info>p{
+    margin-top: 50px;
+    
+}
+.comment{
+    margin: 50px 0;
+}
+.comment ul li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    height: 160px;
+}
+.comment .content{
+    outline: none;
+    height: 160px;
+    width: 1280px;
+    display: block;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+.comment .btn{
+    display: block;
+    background: #46AEDB;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    bottom: 0;
+    left: 1100px;
+    cursor: pointer;
+}
+.no-comment{
+    text-align: center;
+}
+.controls{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    width: 960px;
+    height: 100px;
+    display: none;
+}
+#c{
+    cursor: pointer;
+}
